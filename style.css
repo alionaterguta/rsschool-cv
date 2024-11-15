@@ -1,0 +1,17 @@
+:root {
+  --dark-gray: #242424;
+  --white: white;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  border: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: var(--dark-gray);
+  color: var(--white);
+}
