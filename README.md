@@ -4,13 +4,13 @@
 
 <br />
 
-Location: Frankfurt
+**Location:** Frankfurt, Germany
 
-Email: aliona.terguta@yahoo.com
+**Email:** aliona.terguta@yahoo.com
 
-[Portfolio](https://alionaterguta.github.io/portfolio/)
+**Personal Website:** [Portfolio](https://alionaterguta.github.io/portfolio/)
 
-[GitHub](https://github.com/alionaterguta/)
+**GitHub:** [GitHub](https://github.com/alionaterguta/)
 <br />
 <br />
 
