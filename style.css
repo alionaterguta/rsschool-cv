@@ -65,6 +65,21 @@ a:hover {
 .skills h4 {
   margin-bottom: 0;
 }
+/* Code example styles*/
+
+.code-block {
+  display: flex;
+  background-color: var(--light-gray);
+  color: var(--dark-gray);
+  padding: 8px;
+  border-radius: 4px;
+  font-family: "Courier New", Courier, monospace;
+}
+code {
+  max-height: 250px;
+  width: 100%;
+  overflow: auto;
+}
 
 /* Main styles */
 main {

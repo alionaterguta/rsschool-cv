@@ -42,12 +42,33 @@
           <p>
             Calculate the sum for the numbers on the slot machine (Task 1-2)
           </p>
-          <img
-            src="./img/code-example.png"
-            alt="Code example"
-            class="code-example"
-            width="400"
-          />
+          <pre class="code-block">
+            <code>
+/**
+ * Calculates the sum of the two input arrays.
+ *
+ * @param {number[]} array1
+ * @param {number[]} array2
+ * @returns {number} sum of the two arrays
+ */
+export function twoSum(array1, array2) {
+ const sum = Number(array1.join("")) + Number(array2.join(""));
+return sum;
+}
+
+/**
+ * Checks whether a number is a palindrome.
+ *
+ * @param {number} value
+ * @returns {boolean} whether the number is a palindrome or not
+ */
+export function luckyNumber(value) {
+const isPalindrome = value.toString() === value.toString().split('').
+reverse().join('');  
+return isPalindrome;
+}
+            </code>
+          </pre>
         </section>
         <section>
           <h2 class="sidebar-heading">Languages</h2>
