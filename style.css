@@ -1,0 +1,145 @@
+:root {
+  --dark-gray: #242424;
+  --medium-gray: #383838;
+  --light-gray: #f5f5f5;
+  --dark-green: #374c3c;
+  --light-green: #d4e4d5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: var(--dark-gray);
+  color: var(--light-gray);
+  line-height: 1.6;
+}
+
+section {
+  margin-bottom: 32px;
+}
+
+h1 {
+  font-size: 32px;
+  text-transform: uppercase;
+  margin: 24px 0 0 0;
+}
+
+h2 {
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 4px 8px;
+  background-color: var(--light-green);
+}
+
+section h2 {
+  border-left: 2px solid var(--dark-green);
+}
+
+.sidebar-heading {
+  border-left: 2px solid var(--dark-gray);
+  background-color: var(--light-gray);
+  color: var(--dark-gray);
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.skills p {
+  margin-top: 0;
+}
+
+.skills h4 {
+  margin-bottom: 0;
+}
+/* Code example styles*/
+
+.code-block {
+  display: flex;
+  background-color: var(--light-gray);
+  color: var(--dark-gray);
+  padding: 8px;
+  border-radius: 4px;
+  font-family: "Courier New", Courier, monospace;
+}
+code {
+  max-height: 250px;
+  width: 100%;
+  overflow: auto;
+}
+
+/* Main styles */
+main {
+  display: flex;
+  justify-content: center;
+  margin: 32px 80px 0;
+}
+.sidebar {
+  background-color: var(--medium-gray);
+  color: var(--light-gray);
+  flex: 2;
+  padding: 24px;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  background-color: var(--light-gray);
+  color: var(--dark-gray);
+  flex: 4;
+  padding: 24px 40px;
+}
+h4.job-title {
+  margin: 0 0 24px 0;
+}
+.contact {
+  display: flex;
+  justify-content: space-around;
+  gap: 4px;
+  padding-bottom: 16px;
+}
+.contact-info {
+  font-size: 14px;
+  color: var(--dark-green);
+  border-radius: 24px;
+  text-align: center;
+}
+
+i {
+  color: var(--light-green);
+  padding-right: 4px;
+}
+
+/* Footer styles*/
+footer {
+  background-color: var(--dark-green);
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 80px;
+  padding: 24px 32px 24px 24px;
+  color: var(--light-gray);
+}
+
+.rs-course__container {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  align-items: center;
+}
