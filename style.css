@@ -65,8 +65,8 @@ a:hover {
 .skills h4 {
   margin-bottom: 0;
 }
-/* Code example styles*/
 
+/* Code example styles*/
 .code-block {
   display: flex;
   background-color: var(--light-gray);
@@ -76,9 +76,11 @@ a:hover {
   font-family: "Courier New", Courier, monospace;
 }
 code {
-  max-height: 250px;
+  max-height: 300px;
   width: 100%;
   overflow: auto;
+  white-space: pre-wrap;
+  word-break: break-word;
 }
 
 /* Main styles */

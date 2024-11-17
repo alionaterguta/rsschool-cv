@@ -12,12 +12,12 @@
   <body>
     <main>
       <div class="sidebar">
-        <section class="image">
+        <div class="image">
           <img
             src="./img/aliona-terguta-portrait.png"
             alt="Image Aliona Terguta"
             width="150">
-        </section>
+        </div>
         <section class="skills">
           <h2 class="sidebar-heading">Skills</h2>
           <h4>Programming languages</h4>
@@ -31,8 +31,7 @@
         </section>
         <section>
           <h2 class="sidebar-heading">Code Example</h2>
-          <h4>Lucky Numbers - from <a href="https://exercism.org/">Exercism</a>
-          </h4>
+          <h4>Lucky Numbers - from <a href="https://exercism.org/">Exercism</a></h4>
           <p>Calculate the sum for the numbers on the slot machine (Task 1-2)</p>
           <pre class="code-block">
             <code>
@@ -44,10 +43,9 @@
  * @returns {number} sum of the two arrays
  */
 export function twoSum(array1, array2) {
- const sum = Number(array1.join("")) + Number(array2.join(""));
-return sum;
+  const sum = Number(array1.join("")) + Number(array2.join(""));
+  return sum;
 }
-
 /**
  * Checks whether a number is a palindrome.
  *
@@ -55,9 +53,8 @@ return sum;
  * @returns {boolean} whether the number is a palindrome or not
  */
 export function luckyNumber(value) {
-const isPalindrome = value.toString() === value.toString().split('').
-reverse().join('');  
-return isPalindrome;
+  const isPalindrome = value.toString() === value.toString().split('').reverse().join('');
+  return isPalindrome;
 }
             </code>
           </pre>
@@ -77,7 +74,7 @@ return isPalindrome;
           <h1>Aliona Terguta</h1>
           <h4 class="job-title">Junior Web Developer</h4>
         </section>
-        <section class="contact">
+        <div class="contact">
           <div class="contact-info">
             <i class="fas fa-location-dot"></i>Frankfurt, Germany
           </div>
@@ -91,7 +88,7 @@ return isPalindrome;
           <div class="contact-info">
             <i class="fa-brands fa-github"></i><a href="https://github.com/alionaterguta">GitHub</a>
           </div>
-        </section>
+        </div>
         <section>
           <h2>Profile</h2>
           <p>
@@ -151,8 +148,7 @@ return isPalindrome;
           <h2>Experience</h2>
           <ul>
             <li>
-              <strong>Workshop Coordinator - Perspektiven für Kinder im Gallus e.V. -
-                Frankfurt</strong>
+              <strong>Workshop Coordinator - Perspektiven für Kinder im Gallus e.V. - Frankfurt</strong>
             </li>
             <li>since 2020</li>
             <li>
