@@ -126,7 +126,7 @@ JR Personal GmbH - Frankfurt
 Lufthansa InTouch - Brno, Czech Republic
 
 - Handled ticketing processes, ensuring timely issuance and resolution of ticket-related queries.
-- rovided help desk support for customer service consultants, addressing and resolving service-related issues.
+- Provided help desk support for customer service consultants, addressing and resolving service-related issues.
 - Managed customer inquiries efficiently through phone calls in both Russian and English languages.
   <br />
   <br />
