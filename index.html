@@ -43,9 +43,10 @@
  * @returns {number} sum of the two arrays
  */
 export function twoSum(array1, array2) {
-  const sum = Number(array1.join("")) + Number(array2.join(""));
+  const sum = Number(array1.join(&quot;&quot;)) + Number(array2.join(&quot;&quot;));
   return sum;
 }
+
 /**
  * Checks whether a number is a palindrome.
  *
@@ -53,7 +54,7 @@ export function twoSum(array1, array2) {
  * @returns {boolean} whether the number is a palindrome or not
  */
 export function luckyNumber(value) {
-  const isPalindrome = value.toString() === value.toString().split('').reverse().join('');
+  const isPalindrome = value.toString() === value.toString().split(&#39;&#39;).reverse().join(&#39;&#39;);
   return isPalindrome;
 }
             </code>
@@ -116,7 +117,7 @@ export function luckyNumber(value) {
               the frontend.
             </li>
             <li>
-              - Enhanced the application's aesthetics and user interface with
+              - Enhanced the application&#39;s aesthetics and user interface with
               React-Bootstrap.
             </li>
             <li>
@@ -135,7 +136,7 @@ export function luckyNumber(value) {
             </li>
             <li>- Developed a serverless Backend and hosted on AWS Lambda.</li>
             <li>
-              - Wrote scenarios for each of the app's features using Gherkin
+              - Wrote scenarios for each of the app&#39;s features using Gherkin
               syntax.
             </li>
             <li>
